@@ -12,3 +12,7 @@ $app->get('/getgetrequest', 'controllers\DemoController::getRequestObject');
 $app->post('/getpostrequest', 'controllers\DemoController::getRequestObject');
 
 $app->get('/getShortCustomerList', 'controllers\DatabaseAccessController::getFirstTenCustomers');
+
+/* Also available */
+//$app->delete('', '');
+//$app->put('', ''); 
